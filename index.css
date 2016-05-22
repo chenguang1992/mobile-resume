@@ -51,7 +51,7 @@ html,body{
     height: 100%;
     overflow: hidden;
     background-color: rgb(250, 250, 250);
-    background:url("img/show.jpg");
+    background: url("img/show.jpg");
 }
 #p0 .box0{
     width: 450px;
@@ -97,7 +97,7 @@ html,body{
     display: block;
     position: relative;
     margin-top: 5px;
-    color: blue;
+    color: darkorange;
     font-size: 40px;
     text-align: center;
     font-weight: 900;
@@ -182,27 +182,21 @@ html,body{
     width:100%;
     height: 100%;
 }
-#main ul .page2{
+#main ul .p3{
     background:url("img/img3.jpg") no-repeat center;
     background-size:100% 100%;
     width:100%;
     height: 100%;
     opacity: 1;
 }
-#main ul .page3{
+#main ul .p2{
     background:url("img/img4.jpg") no-repeat center;
     background-size:100% 100%;
     width:100%;
     height: 100%;
 }
-#main ul .page4{
+#main ul .p1{
     background:url("img/img5.jpg") no-repeat center;
-    background-size:100% 100%;
-    width:100%;
-    height: 100%;
-}
-#main ul .page5{
-    background:url("img/0004.jpg") no-repeat center;
     background-size:100% 100%;
     width:100%;
     height: 100%;
@@ -214,7 +208,7 @@ html,body{
     opacity:.6;
 
 }
-.page1 h2{
+#p4 h2{
     color: #ffffff;
     position: absolute;
     width: 200px;
@@ -223,7 +217,7 @@ html,body{
     top: 64px;
     animation:rotateInDownRight 1s ease 0s 1 both;
 }
-.page1 .head_img{
+#p4 .head_img{
     position: absolute;
     left: 52px;
     top: 301px;
@@ -233,7 +227,7 @@ html,body{
     border-radius: 200px;
     animation: zoomIn 1s ease 0s 1 both;
 }
-.page1 .head_img i{
+#p4 .head_img i{
     display: block;
     width: 180px;
     height: 180px;
@@ -242,14 +236,14 @@ html,body{
     background-size: 100% 150%;
     animation: zoomIn 1.2s ease 0s 1  both ;
 }
-.page1 .dsc{
+#p4 .dsc{
     color:#CC3300;
     position: absolute;
     right:45px;
     top: 200px;
-    width: 300px;
+    width: 337px;
 }
-.page1 .dsc span{
+#p4 .dsc span{
     background:#FFFFCC;
     width: inherit;
     text-align: center;
@@ -258,27 +252,27 @@ html,body{
     font: normal 30px/40px "Microsoft Yahei";
     margin-top:50px;
 }
-.page1 .dsc span:nth-child(1){
+#p4 .dsc span:nth-child(1){
      animation: fadeInRight 1.2s ease 0s 1 both;
  }
-.page1 .dsc span:nth-child(2){
+#p4 .dsc span:nth-child(2){
     animation: fadeInRight 1.6s ease 0s 1 both;
 }
-.page1 .dsc span:nth-child(3){
+#p4 .dsc span:nth-child(3){
     animation: fadeInRight 2s ease 0s 1 both;
 }
-.page1 .dsc span:nth-child(4){
+#p4 .dsc span:nth-child(4){
     animation: fadeInRight 2.2s ease 0s 1 both;
 }
-.page1 .dsc span:nth-child(5){
+#p4 .dsc span:nth-child(5){
     animation: fadeInRight 2.6s ease 0s 1 both;
 }
-.page1 .dsc span:nth-child(6){
+#p4 .dsc span:nth-child(6){
     animation: fadeInRight 3s ease 0s 1 both;
 }
 
 /* page2 */
-.page2 .top{
+.p3 .top{
     width: 100%;
     height: 50%;
     background:#fff;
@@ -287,7 +281,7 @@ html,body{
     left:0;
     top:-10px;
 }
-.page2 .mid{
+#p3 .mid{
     position:absolute;
     top: 50%;
     left:0;
@@ -302,7 +296,8 @@ html,body{
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4c4c4c', endColorstr='#ffffff',GradientType=1 ); /* IE6-9 */
     animation: rotateIn 2s ease 1s 1 both;
 }
-.page2 .bottom,.page2 .self{
+
+.p3 .bottom,#p3 .self{
     width: 100%;
     height: 50%;
     background:#fff;
@@ -311,14 +306,14 @@ html,body{
     left: 0;
     bottom:-10px;
 }
-.page2 .con{
+#p3 .con{
     width: 100%;
     height: 50%;
     position:absolute;
     left:0;
     top:-10px;
 }
-.page2 .con span{
+#p3 .con span{
     position: absolute;
     width:200px;
     font: normal 40px/80px "Microsoft Yahei";
@@ -327,62 +322,62 @@ html,body{
     font-weight:600;
     opacity:1;
 }
-.page2 .con span:nth-child(1){
+#p3 .con span:nth-child(1){
     animation: fadeInDown 2s ease 0.5s 1 both;
     color:red;
     left: 50px;
     bottom:45px;
     background:#C0C0C0;
 }
-.page2 .con span:nth-child(2){
+#p3 .con span:nth-child(2){
     animation: fadeInDown 2s ease 1s 1 both;
     color:orange;
     background: #00FFFF;
     left: 100px;
     top:100px;
 }
-.page2 .con span:nth-child(3){
+#p3 .con span:nth-child(3){
     animation: fadeInDown 2s ease 1.5s 1 both;
     color:#FFFF00;
     background:#fff;
     right: 100px;
     top: 100px;
 }
-.page2 .con span:nth-child(4){
+#p3 .con span:nth-child(4){
     animation: fadeInDown 2s ease 2s 1 both;
     color:#00FF00;
     background:lightgray;
     left: 200px;
     top: 250px;
 }
-.page2 .con span:nth-child(5){
+#p3 .con span:nth-child(5){
     animation: fadeInDown 2s ease 2.5s 1 both;
     background:#fff;
     color: #000000;
     bottom: 45px;
     right: 100px;
 }
-.page2 .self{
+#p3 .self{
     background:none;
     opacity:1;
 }
-.page2 .self>*{
+#p3 .self>*{
     display:block;
     margin-left:100px;
 
 }
-.page2 .self h2{
+#p3 .self h2{
     font:normal 60px "Microsoft Yahei";
     margin-left:120px;
     margin-top:50px;
     animation: fadeInUp 2s ease 1s 1 both;
 }
-.page2 .self h4{
+#p3 .self h4{
    font-size: 40px;
     font-weight:600;
     animation: fadeInUp 2s ease 1.5s 1 both;
 }
-.page2 .self p{
+#p3 .self p{
     font-size: 30px;
     color: black;
     width:400px;
@@ -390,7 +385,7 @@ html,body{
     margin-left:100px;
     animation: fadeInUp 2s ease 2s 1 both;
 }
-.page3 h2{
+#p2 h2{
     color:mediumspringgreen;
     position: absolute;
     font:normal 40px/60px "Microsoft Yahei";
@@ -398,7 +393,7 @@ html,body{
     top:50px;
     animation: zoomInDown 1s ease 0s 1 both;
 }
-.page3 h4{
+#p2 h4{
     color:indianred;
     position: absolute;
     font: normal 35px/48px "Microsoft Yahei";
@@ -406,27 +401,27 @@ html,body{
     top: 120px;
     animation: zoomInDown 1s ease 0.7s 1 both;
 }
-.page3 .left{
+#p2 .left{
     position: absolute;
     left: 156px;
     top: 188px;
     width:200px;
     animation: zoomInRight 3s ease 0s 1 both;
 }
-.page3 .left img{
+#p2 .left img{
     margin-bottom: 29px;
     width:90px;
     height:90px;
     display:block;
 }
-.page3 .right{
+#p2 .right{
     animation: zoomInLeft 3s ease 0s 1 both;
     position: absolute;
     right: 69px;
     top: 173px;
     width: 200px;
 }
-.page3 .right span{
+#p2 .right span{
     color:#fff;
     text-align: center;
     font: normal 35px/90px "Microsoft Yahei";
@@ -435,7 +430,7 @@ html,body{
     height:90px;
     display:block;
 }
-.page4 .call,.page4 .call2{
+#p1 .call,#p1 .call2{
     width:100%;
     height:300px;
     position: absolute;
@@ -447,7 +442,7 @@ html,body{
     font-weight:600;
     opacity:0.7;
 }
-.page4 .call2{
+#p1 .call2{
     animation: MyFir 2s ease 0s infinite both;
 }
 @-webkit-keyframes MyFir {
@@ -464,18 +459,18 @@ html,body{
     100%{zoom:2;opacity:0}
 
 }
-.page4 .ads{
+#p1 .ads{
     width:270px;
     position: absolute;
     left: 165px;
     top: 433px;
     animation: fadeInLeft 1s ease 0s 1 both;
 }
-.page4 .ads>*{
+#p1 .ads>*{
     float:left;
     margin-bottom: 20px;
 }
-.page4 .ads span{
+#p1 .ads span{
     color:lightblue;
     text-align: center;
     font:normal 34px/61px "Helvetica";
@@ -483,7 +478,7 @@ html,body{
     width: 130px;
     height: 70px;
 }
-.page4 .ads i{
+#p1 .ads i{
     width: 50px;
     height:50px;
     border:2px solid #5654A0;
@@ -491,13 +486,13 @@ html,body{
     background-size:100% 100%;
     margin-right: 20px;
 }
-.page4 .ads i:nth-child(1){
+#p1 .ads i:nth-child(1){
     background:url("img/phone.png") no-repeat center;
 }
-.page4 .ads i:nth-child(3){
+#p1 .ads i:nth-child(3){
     background:url("img/web.png") no-repeat center;
 }
-.page4 .ads i:nth-child(5){
+#p1 .ads i:nth-child(5){
     background:url("img/email.png") no-repeat center;
 }
 
