@@ -96,9 +96,12 @@ html,body{
     height:28px;
     display: block;
     position: relative;
-    margin-top: 20px;
-    background: url("http://img1.maka.im/670857/176772598056f01b34853270.13657475.png@0-0-422-28a_90Q.src");
-    animation:bounceIn 3s;
+    margin-top: 5px;
+    color: blue;
+    font-size: 40px;
+    text-align: center;
+    font-weight: 900;
+    animation:bounceIn 3s both;
 }
 .box5{
     position: absolute;
